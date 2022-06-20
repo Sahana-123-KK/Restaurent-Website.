@@ -1,0 +1,698 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    /* height: 3200px; */
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid tomato;
+    justify-content: flex-end;
+    height: 105px;
+    align-items: center;
+    /* background-color: rgb(233, 160, 147); */
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://media.istockphoto.com/photos/fresh-crispy-pork-burgers-in-a-row-at-food-market-picture-id1182493107?k=20&m=1182493107&s=612x612&w=0&h=aIiP0fxk79aRGFTVkB1EnCoz_xAc97q8T_H3MEPRF1I=');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    
+
+}
+
+.wapp{
+    position: fixed;
+    right:2%;
+    bottom: 7%;
+    /* background-color: whitesmoke; */
+    /* width: 20%;
+    height: auto; */
+    
+}
+
+.appw{
+    font-size: 400%;
+    color: #25d366;
+}
+
+.wapp p{
+    color: #25d366;
+    font-weight: 600;
+}
+
+
+.wapp a{
+    text-decoration: none;
+}
+.wapp 
+.line{
+    width: 33px;
+    height: 5px;
+    background-color: white;
+    margin: 3px 3px;
+}
+
+
+.burger{
+    position: absolute;
+    top: 35px;
+    right: 5%;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    display: none;
+}
+
+.items{
+    padding: 15px;
+    margin: 30px;
+    
+}
+
+.link{
+    text-decoration: none;
+    font-size: larger;
+    color: whitesmoke;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    text-transform: uppercase;
+}
+
+.link:hover,.link:active{
+    border-bottom: 2px solid orangered;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+
+}
+
+#item-0{
+    align-self: center;
+    position: absolute;
+    left: 30px;
+    /* ali */
+}
+/* #flex{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+} */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 20px; */
+    padding: 30px;
+    border: 2px solid rgb(233, 160, 147);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9555.jpg) ;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    /* margin: 0%; this is because the html already have some padding and margin by default */
+
+}
+
+.goto{
+    text-decoration: none;
+    color:orange;
+    
+    border-radius: 25px;
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.hlinks{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    
+}
+
+#head{
+    text-align: center;
+    margin-bottom: 30px;
+    color: orange;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+#l1{
+    background-color: orange;
+    color: whitesmoke;
+    /* border: 2px solid whitesmoke; */
+}
+
+#l2{
+    /* background-color: ; */
+    border: 2px solid orange;
+}
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+#l1:hover ,#l1:active{
+
+    background-color: orangered;
+    
+    
+
+
+}
+
+#l2:hover,#l2:active{
+    background-color: orange;
+    color: whitesmoke;
+   
+
+}
+.items:hover,
+.items:active
+{
+    transform: scale(1.2);
+}
+
+
+.features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-around;
+
+}
+
+.fitems{
+    width: 20%;
+    /* margin: 20px; */
+    padding: 15px;
+    margin: 10px;
+    font-weight: 300;
+    border: 2px solid rgb(124 113 113) ;
+    border-radius: 25px;
+    
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 300;
+    color:rgb(124 113 113);
+
+}
+
+.icon{
+    font-size: 60px;
+    color: orangered;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color:rgb(124 113 113);
+}
+p{
+    font-weight: 200;
+    line-height: 145%;
+    color:rgb(124 113 113);
+    word-spacing: 2px;
+    /* letter-spacing: 0.5px; */
+}
+.fsection{
+    color: gainsboro;
+}
+
+
+
+section{
+    margin-top: 150px;
+}
+
+h2::after{
+ background-color: orange;
+ display: block;
+ margin: auto;
+ height: 2px;
+ content: '';
+ width: 7%;
+ margin-top: 25px;
+ text-transform: uppercase;
+}
+
+.images{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ background-color: black;
+ transition: transfer 3s,opacity 3s;
+}
+
+.img{
+ width: 25%;
+ height: auto;
+ transition: transfer(1s);
+ /* background-color: black; */
+ opacity: 0.9;
+ /* margin-bottom: 25px; */
+
+}
+
+.img:hover{
+ transform: scale(1.2);
+ cursor: pointer;
+ opacity: 1;
+}
+.favfoods{
+ background-color: beige;
+ padding: 20px;
+ margin-top: 10px;
+}
+.favfoods h2{
+
+margin-top: 25px;
+}
+
+.how a{
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+
+.works h4{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color:rgb(124 113 113); ;
+}
+.works{
+ background-color: rgb(250, 243, 243);
+ padding: 20px;
+}
+.how{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ /* justify-content: ; */
+}
+.follow{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ /* align-items: center; */
+ /* justify-content: center; */
+ margin-left: 45px;
+}
+
+.phoneph{
+ width:100%;
+ height: auto;
+
+}
+
+/* .phoneph:active,
+.phoneph:hover{
+    transform: scale(1.02);
+} */
+.phone{
+ width: 40%;
+}
+.inst{
+ margin-top:40px;
+
+
+}
+.inst span{
+ border: 3px solid orangered;
+ border-radius: 50%;
+ width: 30px;
+ height: 30px;
+ padding: 15px;
+}
+
+
+#apple{
+ width: 200px;
+ height: auto;
+ 
+}
+
+#google{
+ width: 230px;
+ height: auto;
+}
+.play{
+ margin-top: 45px;
+ display: inline;
+ float: left;
+}
+.cities{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ /* padding: 20px; */
+
+
+}
+.ratings{
+ width: 23%;
+
+
+}
+
+.pics{
+    width: 100%;
+    height: 250px;
+
+}
+.cul{
+    list-style: none;
+}
+
+
+
+.cnames{
+ 
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.small-icon{
+    font-size:  30px;  
+    color: orangered;
+    /* text-align: center; */
+    vertical-align: middle;
+}   
+
+/* .cl h3:hover,
+.cl h3:active{
+    color:orange
+
+} */
+a{
+    text-decoration: none;
+}
+.ichover:hover,
+.ichover:active{
+    color: orangered !important;
+    text-decoration: underline;
+    color: orangered !important;
+} 
+
+#apple:active,
+#apple:hover{
+
+    transform: scale(1.3);}
+
+
+
+#google:active,
+#google:hover{
+    transform: scale(1.3);
+}
+
+
+.customers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.user{
+    width: 23%;
+    /* height: auto; */
+}
+
+
+
+.reviews{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2019/10/Blog-10-1030x538.jpg');
+    padding: 20px;
+    background-attachment: fixed;
+    margin-top: 15px;
+    color: whitesmoke !important;
+    padding-bottom: 40px;
+}
+html{
+    /* height: 6000px; */
+}
+
+.reviews h3 p {
+    color: whitesmoke;
+}
+.cpics{
+    
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+    /* align-items: center; */
+    margin-left: 25px;
+}
+
+.user p,
+.user h3,
+.reviews h2 {
+    color: whitesmoke ;
+}
+
+.user p{
+    font-style: italic;
+    font-size: 125%;
+    font-weight: 70;
+    
+}
+.user h3{
+    text-align: center;
+    font-style: italic;
+    display: inline;
+    /* vertical-align: middle; */
+    margin-bottom:-10px;
+}
+h2{
+    text-transform: uppercase;
+}
+.user p::before{
+    content: '\201C';
+    display: block;
+    font-size: 500%;
+    margin: 10px;
+}
+.prices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.choose{
+    width: 25%;
+    border-radius: 25px;
+    border: 2px solid orangered;
+    padding: 25px;
+    background-color: #f9f4f4;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+.btn{
+    
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align:justify;
+    margin-left: 60px;
+}
+
+.choose:hover,
+.choose:active{
+    transform: scale(1.12);
+    cursor: pointer;
+    
+}
+.plansh3{
+    text-align: center;
+}
+
+.choose h2 span{
+    color: orangered;
+    font-size: 150%;
+    /* font-weight: 25; */
+}
+
+.plans{
+ 
+    background-color: rgb(249 249 249);
+    padding: 25px;
+    padding-bottom: 35px;
+}
+
+.options{
+    margin-top: 15px;
+}
+.forms{
+    padding: 25px 150px;
+
+}
+form{
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+}
+
+.fill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-bottom: 20px;
+
+}
+.label{
+    width: 40%;
+    /* margin-left: 25px; */
+    font-weight: 300;
+    color:rgb(124 113 113);
+}
+.give{
+    width: 40%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+input[type = text],
+input[type = email],
+select,
+textarea{
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    font-weight: 300;
+    /* color:orangered */
+    color:rgb(124 113 113);
+}
+
+input[type= submit]{
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.list12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.see{
+    width: 50%;
+   
+}
+footer{
+    padding: 35px 95px;
+    background-color: rgb(76 73 73);
+    font-size: 80%;
+}
+.media{
+    float:right;
+    margin: 0 10px;
+}
+
+.us{
+    float: left;
+    margin: 0 10px;
+}
+
+.see a:link,
+.see a:visited{
+    color: rgb(150, 145, 145);
+}
+
+.see a:hover,
+.see a :active{
+
+    color: grey;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 15px;
+    color: grey;
+}
+
+#fb,
+#insta,
+#goog,
+#tweet{
+    
+    font-size: 150%;
+}
+
+
+#fb:hover,
+#fb:active{
+    color: #3b5998;
+}
+
+#insta:hover,
+#insta:active{
+    color: #517fa4;
+}
+
+#tweet:active,
+#tweet:hover{
+    color: #00aced;
+}
+
+#goog:hover,
+#goog:active{
+    color: #dd4b39;
+}
+
+
+

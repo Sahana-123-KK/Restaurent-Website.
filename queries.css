@@ -1,0 +1,341 @@
+
+
+@media only screen  and (max-width:1200px){
+    
+    
+    
+}
+
+@media only screen and (max-width:1130px){
+
+    .fitems{
+        width: 75%;
+    }
+    .choose{
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .user{
+        width: 40%;
+        margin-top: 25px;
+    }
+    .pics{
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width:1050px){
+    .phoneph{
+        display: block;
+    }
+}
+@media only screen and (max-width:1030px){
+    .phoneph{
+        width:135%;
+    }
+}
+
+@media only screen and (max-width:895px){
+    body{
+        font-size: 14px;
+    }
+
+   .phoneph{
+       width: 60%;
+       display: block;
+       margin: auto;
+   }
+    .phone{
+        width: 100%;
+    }
+    .follow{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    .inst{
+      
+        margin-left: 100px;
+    }
+
+ /* .follow{
+
+
+    width: 70%;
+
+    } */
+    #apple,
+    #google{
+        margin-left: 60px;
+    }
+    form{
+        padding: 15px;
+        width: 100%;
+    }
+
+    .forms{
+        padding: 10px 55px;
+    }
+    .icon{
+        font-size: 50px;
+    }
+
+    .pics{
+        height: 190px;
+    }
+}
+@media only screen and (max-width:1031px){
+    .container{
+        height: 200px;
+    }
+    #item-1,
+    #item-2,
+    #item-3,
+    #item-4
+    {
+        
+        display: block;
+    
+    }
+}
+
+@media only screen and (max-width:1030px){
+    
+    h2{
+        margin-top: 100px;
+    }
+
+    .big{
+        margin-top: 250px !important;
+    }
+
+
+    header{
+        /* margin-bottom: 30000px; */
+    }
+
+    .vis-resp{
+        opacity: 0;
+    }
+
+
+
+    .h-resp{
+        height: 95px;
+    }
+
+    #item-0{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+
+    }
+        
+
+    #logo{
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+        .burger{
+            display: block;
+        }
+     .container{
+            flex-direction: column;
+            /* height: 200px; */
+            /* height: 95px; */
+            align-items: center;
+        }
+        .items{
+            margin: 0;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* header{
+            height: 5000px;
+        }
+         */
+    #apple{
+        width: 150px;
+
+    }
+    #google{
+        width: 180px;
+    }
+    .follow{
+        width: 100%;
+    }
+    .forms{
+        padding: 10px 50px;
+    }
+    body{
+        font-size: 13px;
+    }
+    .small-icon{
+        font-size:20px ;
+    }
+    .icon{
+        font-size: 40px;
+    }
+    .inst span{
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid orangered;
+    }
+
+    .pics{
+        height: 180px;
+    }
+
+        
+    
+}
+
+
+@media only screen and (max-width:795px){
+    .us{
+        
+        margin-bottom: 10px;
+    }
+    .forms{
+        padding: 7px 40px;
+    }
+    .pics{
+        height: 160px;
+    }
+}
+@media only screen and (max-width:710px){
+    .ratings{
+        width: 40%;
+    }
+        .cl h3{
+            margin-bottom: 10px
+            ;
+        }
+        .reviews{
+            padding: 10px;
+        }
+}
+@media only screen and (max-width:700px){
+    .choose{
+        width: 50%;
+    }
+
+        .forms{
+            padding: 5px 22px;
+        }
+
+        body,html{
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+
+        }
+        .pics{
+            
+            height: 130px;
+        }
+        .user{
+            width: 80%;
+
+        }
+        .choose{
+            width: 70%;
+        }
+
+        body{
+            font-size: 11px;
+        }
+        .small-icon{
+            font-size: 15px;
+        }
+
+        .ratings{
+            width: 40%;
+        }
+
+
+}
+
+
+@media only screen and (max-width:550px){
+    body{
+        font-size: 11px;
+    }
+
+    .goto{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .choose{
+        width: 70%;
+    }
+}
+
+
+
+
+@media only screen and (max-width:480px){
+
+
+    .goto{
+
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .choose{
+        width: 70%;
+    }
+    body{
+        font-size: 10px;
+
+    }
+
+    .follow{
+        margin-left: -54px;
+    }
+
+    h3{
+        line-height: 200%;
+    }
+
+}
+@media only screen and (max-width:380px){
+
+    .ratings{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width:330px) {
+    
+    
+    body{
+        font-size: 9px;}
+
+    .bbt {
+        padding-left: 15px;
+        padding-right: 0px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    
+    
+    .goto {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    
+}
